@@ -1,0 +1,567 @@
+@font-face {
+    font-family: 'cera-pro';
+    src: url(./fonts/cera-pro-sv/Cera\ Pro\ Medium.otf);
+    font-family: 'axiom';
+    src: url(./fonts/Axiforma/Kastelov\ -\ Axiforma\ Bold.otf);
+    font-family: 'avenir';
+    src: url(./fonts/Avenir-Font/avenir_ff/AvenirLTStd-Black.otf);
+    font-family: 'gilroy';
+    src: url(./fonts/Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.header{
+    background-image: linear-gradient(to right, #FFFBF3, #EDFAFE);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+    align-items: center;
+    margin-bottom: 40px;
+    margin:0px 30px;
+}
+.nav a{
+    text-decoration: none;
+    /* color: #fff; */
+    font-size: 16.72px;
+    font-weight: medium; 
+    font-family: 'cera-pro';
+    color: #686C75;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.mid-div a{
+    font-size: 29.25px;
+    color: #000000;
+    text-transform: lowercase;
+}
+/* Nav Ennds Here */
+/* Hero Starts Here */
+.hero{
+    display: flex;
+    margin:60px;
+}
+.hero-info{
+    flex: 1;
+}
+.hero-text{
+    font-family: 'axiom';
+    font-size: 39.51px;
+    font-weight: bold;
+    /* line-height: 67.92; */
+    color: #000000;
+}
+/* .blur-div{
+background-color: rgb(255, 255,255,0.5);
+filter: blur(10px);
+} */
+.blur-text{
+    display: flex;
+    background-color: #F7F8F8;
+    padding: 20px;
+    justify-content: space-between;
+    /* width: 700px; */
+    /* position: absolute; */
+    margin-top: 120px;
+    font-family: 'cera-pro';
+    font-size: 18.81px;
+    font-weight: regular;
+    margin-bottom: 50px;
+    color: #989898;
+    align-items: center;
+}
+.blur-text i{
+    padding: 5px;
+}
+.blur-text a{
+    text-decoration: none;
+    font-size: 16.72px;
+    font-weight: regular; 
+    font-family: 'poppins';
+    background-color: #FD5B2F;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.hero-banner{
+    flex: 1;
+    position: relative;
+}
+.hero-banner .img-1{
+    border-top-right-radius: 250px;
+    border-top-left-radius: 250px;
+    border-top: 2px solid #A7327A;
+    border-left: 2px solid #3889EF;
+    padding: 10px;
+}
+.img-2{
+    position: absolute;
+    top: 10px;
+    right: -70px;
+}
+.img-3{
+    position: absolute;
+    right: -58px;
+    top: 360px;
+}
+.img-4{
+    position: absolute;
+    /* right: -90px; */
+    top: 240px;
+}
+.links img{
+    height: 24.15px;
+    width: 71.1px;
+    /* padding: 10px; */
+    
+}
+.links{
+    display: flex;
+    align-items: center;
+    margin: 0px 40px;
+    gap: 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.thumbnail {
+    display: flex;
+    gap: 10px;
+}
+.thumbnail img{
+    margin: -10px;
+}
+.thumbnail p{
+    padding: 10px;
+    font-family: 'avenir';
+    font-size: 12.54px;
+    color: #000000;
+   margin-left: -25px;
+}
+.count{
+    position: relative;
+    left: -15px;
+}
+/* Header Ends here */
+/* Services Starts here */
+.services{
+    display: flex;
+}
+.services-info{
+    flex: 2;
+    margin: 180px 120px;
+}
+.service-banner{
+    flex: 1;
+    margin: 0px 80px;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    border-top: 2px solid red;
+    position: relative;
+}
+.alarm{
+    position: relative;
+    top: -100px;
+    left: 190px;
+}
+.services-text h5{
+    font-family: 'gilroy';
+    font-size: 18.81px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    color: #FD5B2F;
+}
+.services-text h3{
+    font-family: 'gilroy';
+    font-size: 52.24px;
+    font-weight: bold;
+    line-height: 71px;
+    color: #000000;
+}
+.services-text p{
+    font-family: 'avenir';
+    font-size: 15.67px;
+    font-weight: regular;
+    line-height: 37.6px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.service-button{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.service-button a{
+    text-decoration: none;
+    font-family: 'gilroy';
+    font-size: 16.72px;
+    font-weight: regular; 
+    background-color: #FD5B2F;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.service-button p{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   color: #FD5B2F;
+   font-family: 'gilroy';
+    font-size: 16.72px;
+    font-weight: regular;
+}
+/* Services ends here */
+/* Visions Starts here */
+.vision{
+    background-image: url(./img/Vector\ 36.png);
+    display: flex;
+    margin: 60px;
+    gap: 80px;
+    /* position: absolute; */
+}
+.vision-info{
+    flex: 1;
+}
+.vision-banner{
+    background-color: #FFF3C8;
+    height: 353.12px;
+    /* width: 445px; */
+    border-top-left-radius: 146px;
+    flex: 1;
+    position: relative;
+}
+.vision-text h5{
+    font-family: 'gilroy';
+    font-size: 18.81px;
+    /* font-weight: semi-bold; */
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    color: #FD5B2F;
+}
+.vision-text h4{
+    font-family: 'gilroy';
+    font-size: 52.24px;
+    font-weight: bold;
+    line-height: 71px;
+    color: #000000;
+}
+.vision-text p{
+    font-family: 'avenir';
+    font-size: 15.67px;
+    font-weight: medium;
+    line-height: 37.6px;
+    color: #000000;
+    margin-bottom: 50px;
+    width: 85%;
+}
+.up{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.vision-cards{
+    margin-bottom: 30px;
+}
+.img-up{
+    position: relative;
+    left: 90px;
+    top: -80px;
+}
+.img-right{
+    position: relative;
+    top: -90px;
+    right: -5px;
+}
+.img-down{
+    position: absolute;
+    top: 170px;
+    right: 7px;
+}
+.img-top-right{
+    position: absolute;
+    top: -90px;
+    right: 125px;
+}
+.vision-button a{
+    background-color: #FD5B2F;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'gilroy';
+    font-size: 16.72px;
+    font-weight: regular;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+/* Vision ends here */
+/* solutions starts from here  */
+.solutions{
+    display: flex;
+    margin-left: 60px;
+    gap: 80px;
+    /* position: absolute; */
+    margin-top: 130px;
+    background-image: url(./img/Vector\ 35.png);
+    margin-bottom: 100px;
+}
+.solutions-banner{
+    display: flex;
+    gap: 10px;
+    height: 710px; 
+}
+.solutions-info{
+    flex: 1;
+    margin: 130px 0px;
+}
+.solutions-text h6{
+    font-family: 'gilroy';
+    font-size: 18.81px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    color: #FD5B2F;
+}
+.solutions-text h3{
+    font-family: 'gilroy';
+    font-size: 52.24px;
+    font-weight: bold;
+    line-height: 71px;
+    color: #000000;
+    letter-spacing: 0%;
+}
+.solutions-text p{
+    font-family: 'avenir';
+    font-size: 15.67px;
+    font-weight: medium;
+    line-height: 37.6px;
+    color: #000000;
+    margin-bottom: 50px;
+    width: 80%;
+}
+.solution-button a{
+    text-decoration: none;
+    font-family: 'gilroy';
+    font-size: 16.72px;
+    font-weight: regular;
+    background-color: #FD5B2F;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* solutions ends here */
+.why-us-cards{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+.why-us-text{
+     text-align: center;
+     margin: 50px;
+     display: inline-block;
+}
+.why-us-text h6{
+    font-family: 'gilroy';
+    font-size: 18.81px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    color: #FD5B2F;
+}
+.why-us-text h4{
+    font-family: 'gilroy';
+    font-size: 52.24px;
+    font-weight: bold;
+    line-height: 71px;
+    color: #000000;
+    width: 50%;
+    margin-left: 300px;
+}
+.why-us-cards i{  
+    color: #FD5B2F;
+    font-size: 45px;
+    margin: 15px;
+}
+.why-us-cards{
+    text-align: center;
+}
+.why-us-cards h6{
+    font-family: 'gilroy';
+    font-size: 20.89px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    color: #FD5B2F;
+}
+.why-us-cards p{
+    font-family: 'avenir';
+    font-size: 12.54px;
+    font-weight: medium;
+    line-height: 25.1px;
+    color: #000000;
+    margin-top: 10px;
+}
+/* why-us section ends here */
+/* Gallery starts here */
+.gallery{
+    display: flex;
+    margin-left: 60px;
+    gap: 200px;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+.gallery-text {
+    margin-bottom: 50px;
+}
+.gallery-image{
+    gap: 20px;
+    margin-top: 80px;
+}
+.gallery-info h6{
+    font-family: 'gilroy';
+    font-size: 18.81px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    color: #FD5B2F;
+}
+.gallery-info h4{
+    font-family: 'gilroy';
+    font-size: 52.24px;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 0%;
+    line-height: 71px;
+    display: inline-block;
+}
+.gallery-banner img{
+    height: 710.42px;
+}
+/* gallery ends here */
+/* member section nstarts from here */
+.member{
+    display: flex;
+    margin-left: 60px;
+    gap: 80px;
+   
+}
+.member-text h6{
+    font-family: 'gilroy';
+    font-size: 18.81px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    color: #FD5B2F;
+}
+.member-text h4{
+    font-family: 'gilroy';
+    font-size: 52.24px;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 0%;
+    line-height: 71px;
+}   
+.member-text p{
+    font-family: 'avenir';
+    font-size: 15.67px;
+    font-weight: medium;
+    line-height: 37.6px;
+    color: #000000;
+    margin-bottom: 50px;
+    width: 63%;
+}
+.member-text a{
+    text-decoration: none;
+    font-family: 'gilroy';
+    font-size: 16.72px;
+    font-weight: regular;
+    background-color: #FD5B2F;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.member-text{
+    margin: 180px 0px;
+}
+/* member section ends here */
+/* Fotter starts here */
+.footer{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to bottom, #FFFBFA, #FFF1ED);
+}
+.section-1{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    margin-left: 60px;
+    flex: 1;
+}
+.section-1 h6{
+    font-family: 'cera-pro';
+    font-size: 29.25px;
+    font-weight: medium;
+    color: #000000;
+}
+.section-1 p{
+    font-family: 'gilroy';
+    font-size: 16.72px;
+    line-height: 31.3px;
+    width: 90%;
+
+}
+.section-2{
+    display: flex;
+    gap: 20px;
+    /* margin-top: 50px; */
+    flex-direction: column;
+    flex: 1;
+}
+.section-2 h6 , .section-3 h6 ,.section-4 h6{
+    font-family: 'gilroy';
+    font-size: 20.89px;
+    font-weight: medium;
+    color: #FD5B2F;
+}
+.section-2 a, .section-3 a{
+    font-family: 'gilroy';
+    font-size: 16.72px;
+    font-weight: regular;
+    color: #000000;
+}
+.section-3{
+    display: flex;
+    gap: 20px;
+    /* margin-top: 50px; */
+    flex-direction: column;
+    flex: 1;
+}
+.section-4{
+    gap: 20px;
+    flex: 1;
+}
+.section-4 i{
+    color: #FD5B2F;
+    font-size: 15px;
+    margin: 15px 0px;
+    padding: 5px;
+    background-color: #FFF6F3;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
